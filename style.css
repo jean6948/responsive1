@@ -1,0 +1,239 @@
+html {
+    background-color: rgb(255, 255, 255);
+}
+
+body, main{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    height: 10vh;
+}
+
+/* barra de navegacion */
+
+header nav{
+    width: 100%;
+    height: 10vh;
+    background: rgb(35,167,134);
+    background: radial-gradient(circle, rgba(35,167,134,0.7035189075630253) 2%, rgba(0,0,0,0.6278886554621849) 50%, rgba(32,166,110,0.8435749299719888) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header nav ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+header nav ul li{
+    list-style: none;
+    font-family: 'Orelega One', cursive;
+    padding: 5px 10px;
+    font-size: 1.3rem;
+    color: whitesmoke;
+}
+
+header nav ul li:hover{
+    color: rgb(0,0,0);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/*banner*/
+
+.container{
+    width: 100%;
+    height: 90vh;
+    background-image: url(http://cdn.shopify.com/s/files/1/0660/2895/products/bigger_is_better_shopify_1024x1024.jpg?v=1419889699);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container .filter{
+    background-color: rgba(255, 255, 255,0.3);
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .filter .col-60{
+    width: 60%;
+}
+
+.container .filter .col-60 h2{
+    font-size: 2.8rem;
+    font-family: 'Orelega One', cursive;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgb(0, 0, 0);
+}
+
+.container .filter .col-60 p{
+    font-size: 1.5rem;
+    font-family: 'Orelega One', cursive;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgb(0, 0, 0);
+}
+
+.container .filter .col-60 button{
+    width: 30%;
+    border-radius: 10px;
+    outline: none;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    background: rgb(35,167,134);
+    background: radial-gradient(circle, rgba(35,167,134,0.7035189075630253) 2%, rgba(0,0,0,0.6278886554621849) 50%, rgba(32,166,110,0.8435749299719888) 100%);
+    padding: 5px 10px;
+    margin-top: 20px;
+
+}
+
+/*seccion de las tres columnas*/
+
+.container-main{
+    width: 100%;
+}
+.container-main .row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.container-main .row .col-30{
+    width: 25em;
+    height: 20em;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.container-main .row .col-30:nth-child(1){
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/51qx3FptbZL._AC_SX425_.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.container-main .row .col-30:nth-child(2){
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/416tVMVcf7L._AC_.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.container-main .row .col-30:nth-child(3){
+    background-image: url(https://ae01.alicdn.com/kf/HTB1y9SLXovrK1RjSszfq6xJNVXaO/Tangram-Playing-Cards-Sea-Edition-the-Seven-Stones-of-Wisdom-Poker-Size-Deck-USPCC-Custom-Limited.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.container-main .row .col-30 h2{
+    font-size: 1.5rem;
+    font-family: 'Orelega One', cursive;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgb(105, 47, 47);
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.container-main .row .col-30 p{
+    font-size: 1.3rem;
+    font-family: 'Orelega One', cursive;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgb(56, 190, 67);
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding: 5px;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    background: rgb(35,167,134);
+    background: radial-gradient(circle, rgba(35,167,134,0.7035189075630253) 2%, rgba(0,0,0,0.6278886554621849) 50%, rgba(32,166,110,0.8435749299719888) 100%);
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+footer .row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer .row .col-30{
+    width: 22em;
+
+}
+
+footer .row .col-30:nth-child(1) ol{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .row .col-30:nth-child(1) ol li{
+    list-style: none;
+    font-family: 'Orelega One', cursive;
+    padding: 5px 10px;
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    font-weight: 800;
+}
+
+footer .row .col-30:nth-child(1) ol li:hover{
+    cursor: pointer;
+    color: rgb(40, 93, 117);
+}
+
+footer .row .col-30:nth-child(2) ol{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+
+}
+
+footer .row .col-30:nth-child(2) ol li{
+    list-style: none;
+    font-family: 'Orelega One', cursive;
+    padding: 5px 10px;
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    font-weight: 800;
+}
+
+footer .row .col-30:nth-child(2) ol li:hover{
+    cursor: pointer;
+    color: rgb(40, 93, 117);
+}
+
+footer .row .col-30:nth-child(3) h2{
+    font-size: 1.3rem;
+    font-family: 'Orelega One', cursive;
+    color: rgb(255, 255, 255);
+}
